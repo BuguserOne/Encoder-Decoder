@@ -1,0 +1,25 @@
+/*                  GLOBAL                   */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* sass --watch assets/scss/main.scss assets/css/styles.css */
+
+@import "variables.scss";
+@import "mixins.scss";
+
+/* -> @include mixinName
+body {
+    @include textStyles( , , ,)
+} */
+
+/* -> $variableName;
+body {
+    coler: $colerBlack;
+} */
